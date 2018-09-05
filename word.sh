@@ -22,4 +22,4 @@ do
 	fi
 done
 
-printf ");"
+printf ",'\\\0');"
