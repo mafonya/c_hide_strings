@@ -25,8 +25,8 @@ void c(char *buf, ...)
 
 int main(int argc, char const *argv[])
 {
-	char str[512];
-	c(str, 'E','x','a','m','p', 'l', 'e');
+	char str[512] = {0};
+	c(str, 'E','x','a','m','p', 'l', 'e', '\0');
 
 	printf("The word is: %s\n", str);
 	printf("It's size is: %zu\n", strlen(str));
