@@ -8,7 +8,7 @@ fi
 
 word=$1
 
-echo "char str[512];"
+echo "char str[512]={0};"
 
 printf "c(str,"
 
